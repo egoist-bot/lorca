@@ -45,6 +45,8 @@ func LocateChrome() string {
 		}
 	default:
 		paths = []string{
+			// WSL
+			"/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe",
 			"/usr/bin/google-chrome-stable",
 			"/usr/bin/google-chrome",
 			"/usr/bin/chromium",
